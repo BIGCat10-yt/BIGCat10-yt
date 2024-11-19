@@ -1,0 +1,54 @@
+--made with orion library(verry cool btw)
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "scripthub v1.0", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+OrionLib:MakeNotification({
+	Name = "scripthub",
+	Content = "Merci de ne pas spamer blackhole(5fois max) et de vous eloiger ou vous l'avez set",
+	Image = "rbxassetid://4483345998",
+	Time = 7
+})
+OrionLib:MakeNotification({
+	Name = "scripthub",
+	Content = "mourir si blackhole = coincé donc besoin de rerejoindre",
+	Image = "rbxassetid://4483345998",
+	Time = 9
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "home",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "welcome :)",
+	Callback = function()
+      		print(" ")
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "brookhaven rp",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "blackhole(no spam)",
+	Callback = function()
+      		print("Starting Blackhole")
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "infos",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "scripthubV1.0",
+	Callback = function()
+      		print("button pressed")
+    end
+Tab:AddButton({
+	Name = "par BIG_Cat10",
+	Callback = function()
+      		print("button pressed")
+    end
